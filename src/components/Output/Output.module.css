@@ -1,0 +1,70 @@
+.Output{
+    /* position: absolute;
+    left: 27%; */
+    padding: 10px 0;
+    height: 300px;
+    background-color: #1a8b9d;
+    min-height:350px;
+    width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow-Y: scroll;
+    overflow-X: none;
+    border-radius: 5px;
+    box-shadow: 5px 9px 12px  #4f8a8b;
+    
+    /* border: 1px solid black; */
+}
+
+.List{
+    text-align: left;
+    margin-right: auto;
+    color: white; 
+    width: 380px;
+    
+    /* border: 1px solid blue; */
+}
+
+.List input {
+    width: 200px;
+    border: 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+} 
+p input:focus{
+    outline:none;
+}  
+.DeleteButton{
+    margin-left: auto ;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #00587a;
+    font-weight: 800;
+    color: whitesmoke;
+    outline: none;
+}
+.DeleteButton:hover{
+    background-color: #19d3da;
+    color: #222831;
+    outline: none;
+    box-shadow: 2px 7px 7px 7px #0eb196 inset ;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    background-color: #204051;
+    box-shadow: 5px 10px 6px #5eaaa8;
+    padding: 2px 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+ul:hover{
+    box-shadow: 5px 10px 8px 4px #5eaaa8;
+
+}

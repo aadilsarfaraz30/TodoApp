@@ -1,0 +1,48 @@
+.Input{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input input {
+    width: 50%;
+    margin: 20px;
+    padding: 15px 10px;
+    border: 2px solid #26cfec;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.Input input:focus {
+    border: 2px solid #026c7a;
+    outline: none;
+}
+.Input button{
+    padding: 10px 55px;
+    border-radius: 13px;
+    outline: none;
+    background-color: #00587a;  
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 800; 
+}
+/* #34626c */
+.Input button:hover {
+    outline: none;
+    background-color: #19d3da;
+    color: #222831;
+    box-shadow: 2px 7px 7px 7px #0eb196 inset ;
+}
+@media (max-width: 500px){
+    .Input{
+        display: flex;
+        flex-flow: column;
+    }
+    .Input input {
+        width: 70%;
+    }
+
+}
+
+
